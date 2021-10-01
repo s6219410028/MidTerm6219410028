@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="OnlineSerrvice Service Online">
+    <meta name="description" content="OnlineService">
+    <meta name="author" content="JamesJee">
+    <title>OnlineService</title>
+    <link rel="shortcut icon" href="./Image/GundamLogoWithSwordAndShield.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div align="center">
+        <img src="./Image/io64cog3io221.png" alt="OnlineService" width="40%">
+    </div>
+
+    <h2 align="center">Online Service V.1.0 </h2>
+    <h3 align="center">"ชำระค่าสาธารณูปโภคหลากหลายเพื่อความสะดวกของคุณ"</h3>
+
+    <hr>
+
+    <form action="#" method="GET">
+
+        <table border="0" width="85%" align="center" cellpadding="10">
+
+            <tr>
+                <td align="right">
+                    รหัสประจำตัวประชาชน
+                </td>
+
+                <td>
+                    <input type="text" name="ID" id="">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">คำนำหน้า</td>
+                <td>
+                    <input type="radio" name="title" checked id="นาย">นาย
+                    <input type="radio" name="title" id="นาง">นาง
+                    <input type="radio" name="title" id="นางสาว">นางสาว
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">ชื่อ-สกุล</td>
+                <td>
+                    <input type="text" name="name" id="">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">ค่าสาธารณูปโภค</td>
+                <td>
+                    <input type="checkbox" name="Water" id="ประปา">ประปา  
+                    <input type="text" name="water_b" id="ประปา_บาท">บาท  
+
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right"></td>
+                <td>
+                    <input type="checkbox" name="Electricity" id="ไฟฟ้า">ไฟฟ้า  
+                    <input type="text" name="Electricity_b" id="ไฟฟ้า_บาท">บาท  
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right"></td>
+                <td>
+                    <input type="checkbox" name="HTel" id="โทรศัพท์บ้าน">โทรศัพท์บ้าน  
+                    <input type="text" name="HTel_b" id="โทรศัพท์บ้าน_บาท">บาท  
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right"></td>
+                <td>
+                    <input type="checkbox" name="AIS" id="AIS">AIS  
+                    <input type="text" name="AIS_b" id="AIS_บาท">บาท  
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right"></td>
+                <td>
+                    <input type="checkbox" name="DTAC" id="DTAC">DTAC  
+                    <input type="text" name="DTAC_b" id="DTAC_บาท">บาท  
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right"></td>
+                <td>
+                    <input type="checkbox" name="TRUE" id="TRUE">TRUE  
+                    <input type="text" name="TRUE_b" id="TRUE_บาท">บาท  
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">ส่วยลดเฉพาะค่าสาธารณูปโภค</td>
+                <td>
+                    <select name="disc" id="">
+                        <option value="Disc0">ไม่มีส่วนลด</option>
+                        <option value="Disc50">ลด 50%</option>
+                        <option value="Disc10"> ลด 10%</option>
+                    </select>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+    <hr>
+
+    <table border="1" width="80%" align="center" cellpadding="10">
+        <tr>
+            <td align="right"> <button>ชำระค่าบริการ</button> </td>
+            <td> <button>ยกเลิก</button> </td>
+        </tr>
+    </table>
+    <br>
+
+<table align="center">
+    <tr>
+        <td>
+            <strong ><u>หมายเหตุ</u></strong> ค่าบริการ 15 บาทต่อรายการสาธารณูปโภค และไม่นำไปคิดกับส่วนลด
+        </td>
+    </tr>
+</table>
+    
+</body>
+
+</html>
